@@ -1,0 +1,762 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 16px 20px;
+  background-color: white;
+  transition: all 0.5s ease-in; }
+
+main .sectionOne .header-left-text button, main .secFour .bg-img .container .row .hover-img .hover-img-item button {
+  padding: 7px 20px !important;
+  border-radius: 20px;
+  background-color: #EC681F;
+  color: white; }
+
+main .sectionThree .container .row h1, main .secFour .bg-img .container .row h1, main .secFive .container .row .portfolio h1, main .secSix .container .row h1, main .secSix .container .row .count span, main .secSeven h1, main .secEight .container .row h1 {
+  font-size: 50px; }
+
+main .sectionTwoo .container .row .sectionTwoo-text .heading-text h1 {
+  font-size: 47px; }
+
+main .sectionOne .header-left-text .connection span p {
+  font-size: 30px; }
+
+main footer .container .aloqa .aloqa-item ul li p {
+  font-size: 28px; }
+
+main .sectionOne .header-left-text p, main .sectionOne .header-left-text b {
+  font-size: 25px; }
+
+main .sectionThree .container .row .card .card-body h4, main .secFive .container .row .portfolio p, main .secEight .container .row .card .card-body p {
+  font-size: 24px; }
+
+main .secSix .container .row .count p {
+  font-size: 22px; }
+
+main .sectionOne .header-left-text button, main .sectionTwoo .container .row .sectionTwoo-text p, main .sectionTwoo .container .row .sectionTwoo-text ul li {
+  font-size: 20px; }
+
+main .secFour .bg-img .container .row .hover-img .hover-img-item p, main footer .container .footer-links .kompany h5, main footer .container .footer-links .xizmatlar h5, main footer .container .footer-links .mijozlar h5, main footer .container .aloqa h5 {
+  font-size: 18px; }
+
+main header .container .headerNav nav .collapse ul li a, main .sectionThree .container .row .card .card-body p, main .secEight .container .row .card .card-body small {
+  font-size: 16px; }
+
+main footer .container .footer-links .kompany ul li a, main footer .container .footer-links .xizmatlar ul li a, main footer .container .footer-links .mijozlar ul li a, main footer .container .footer-links .bot-text a, main footer .container .aloqa .aloqa-item ul li span {
+  font-size: 14px; }
+
+main .secFour .bg-img .container .row .hover-img .hover-img-item button {
+  font-size: 13px; }
+
+main .sectionOne .header-left-text .connection span {
+  font-size: 12px; }
+
+main header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999; }
+  main header .container .headerNav nav .navbar-brand {
+    width: 115px;
+    height: 45px; }
+    main header .container .headerNav nav .navbar-brand img {
+      display: block;
+      width: 100%; }
+  main header .container .headerNav nav .collapse {
+    justify-content: flex-end; }
+    main header .container .headerNav nav .collapse ul li {
+      padding: 25px 0 0 0;
+      margin-right: 18px; }
+      main header .container .headerNav nav .collapse ul li:hover a::after {
+        width: 100%;
+        margin-bottom: 0;
+        margin-top: 10px;
+        transition: all 0.3s ease-in; }
+      main header .container .headerNav nav .collapse ul li a {
+        color: #131A22;
+        padding-bottom: 10px; }
+        main header .container .headerNav nav .collapse ul li a::after {
+          content: '';
+          display: block;
+          height: 1px;
+          width: 0%;
+          margin: 0 auto;
+          margin-bottom: 10px;
+          background-color: #EC681F; }
+    main header .container .headerNav nav .collapse .langDropdown {
+      padding-top: 28px; }
+      main header .container .headerNav nav .collapse .langDropdown form .form-group select {
+        border-radius: 20px;
+        height: 32px;
+        box-shadow: none !important;
+        outline: none !important;
+        background-color: transparent;
+        color: #131A22; }
+        main header .container .headerNav nav .collapse .langDropdown form .form-group select option:hover {
+          background-color: #EC681F !important; }
+main .sectionOne .secOneBg {
+  margin: 0 auto;
+  width: 1334px;
+  position: relative; }
+  main .sectionOne .secOneBg img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block; }
+main .sectionOne .header-left-text {
+  padding-top: 250px; }
+  main .sectionOne .header-left-text p {
+    font-weight: 300;
+    margin-bottom: 0; }
+  main .sectionOne .header-left-text b {
+    font-weight: 500;
+    color: #212529; }
+  main .sectionOne .header-left-text button {
+    font-weight: 400;
+    margin-top: 30px;
+    line-height: 24px;
+    position: relative;
+    padding-right: 40px !important; }
+    main .sectionOne .header-left-text button:hover i {
+      right: 10px; }
+    main .sectionOne .header-left-text button i {
+      display: block;
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      transition: all 0.2s ease-in; }
+  main .sectionOne .header-left-text .connection {
+    padding-top: 150px; }
+    main .sectionOne .header-left-text .connection span {
+      line-height: 28px; }
+      main .sectionOne .header-left-text .connection span i {
+        font-size: 15px;
+        margin-right: 8px;
+        color: #EC681F; }
+      main .sectionOne .header-left-text .connection span p {
+        font-weight: bold;
+        color: #212529; }
+main .sectionOne .container .row .vertical-carousel {
+  padding-top: 250px; }
+  main .sectionOne .container .row .vertical-carousel .carousel ul {
+    height: 10px;
+    width: 50px;
+    margin: 0 !important;
+    right: -80px;
+    left: auto;
+    top: 220px;
+    transform: rotate(-90deg); }
+    main .sectionOne .container .row .vertical-carousel .carousel ul li {
+      height: 8px;
+      width: 8px;
+      border-radius: 50%;
+      background-color: #ccc; }
+      main .sectionOne .container .row .vertical-carousel .carousel ul li.active {
+        background-color: #131A22 !important; }
+  main .sectionOne .container .row .vertical-carousel .carousel-inner .carousel-item {
+    height: 450px; }
+    main .sectionOne .container .row .vertical-carousel .carousel-inner .carousel-item img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+main .sectionTwoo {
+  padding-top: 100px;
+  padding-bottom: 150px; }
+  main .sectionTwoo .container .row .sectionTwoo-text {
+    padding-left: 50px; }
+    main .sectionTwoo .container .row .sectionTwoo-text .heading-text {
+      text-align: center; }
+      main .sectionTwoo .container .row .sectionTwoo-text .heading-text h1 {
+        margin-bottom: 35px;
+        color: #212529; }
+    main .sectionTwoo .container .row .sectionTwoo-text p {
+      color: #37475A;
+      line-height: 34px; }
+    main .sectionTwoo .container .row .sectionTwoo-text ul {
+      list-style-type: none;
+      padding: 0; }
+      main .sectionTwoo .container .row .sectionTwoo-text ul li {
+        color: #37475A;
+        font-weight: 500;
+        padding: 2px 0;
+        position: relative;
+        padding-left: 25px; }
+        main .sectionTwoo .container .row .sectionTwoo-text ul li::after {
+          content: '';
+          height: 12px;
+          width: 8px;
+          display: block;
+          background-color: #EC681F;
+          border-top-right-radius: 8px;
+          position: absolute;
+          left: 0;
+          top: 13px; }
+  main .sectionTwoo .container .row .first-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 674px;
+    padding-left: 140px; }
+    main .sectionTwoo .container .row .first-img img {
+      width: 100%;
+      display: block; }
+  main .sectionTwoo .container .row .second-img {
+    position: absolute;
+    bottom: -80px;
+    left: 0;
+    padding-left: 100px; }
+    main .sectionTwoo .container .row .second-img img {
+      width: 100%;
+      display: block; }
+main .sectionThree {
+  background-image: url("../images/bg-sec3.png");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat; }
+  main .sectionThree .container .row h1 {
+    color: #fff;
+    margin-bottom: 100px; }
+  main .sectionThree .container .row .card .card-header {
+    background-color: transparent;
+    height: 60px; }
+    main .sectionThree .container .row .card .card-header .card-img {
+      position: absolute;
+      top: -30px;
+      left: 35%;
+      right: 35%;
+      height: 100px;
+      width: 100px; }
+      main .sectionThree .container .row .card .card-header .card-img img {
+        display: block; }
+      main .sectionThree .container .row .card .card-header .card-img #blok-item {
+        position: absolute;
+        top: 28px;
+        left: 24px; }
+  main .sectionThree .container .row .card .card-body {
+    height: 140px;
+    padding-left: 0px !important;
+    padding-right: 0px !important; }
+    main .sectionThree .container .row .card .card-body h4 {
+      color: #212529; }
+main .secFour .bg-img {
+  position: relative; }
+  main .secFour .bg-img .container .row {
+    padding-bottom: 50px; }
+    main .secFour .bg-img .container .row h1 {
+      color: #212529; }
+    main .secFour .bg-img .container .row .hover-img {
+      position: relative;
+      border-radius: 5px;
+      overflow: hidden;
+      background-color: black;
+      text-align: center; }
+      main .secFour .bg-img .container .row .hover-img:hover img {
+        opacity: 0.5;
+        transform: scale(1.2); }
+      main .secFour .bg-img .container .row .hover-img:hover .hover-img-item {
+        opacity: 1; }
+      main .secFour .bg-img .container .row .hover-img img {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden; }
+      main .secFour .bg-img .container .row .hover-img .hover-img-item {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        z-index: 999;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%); }
+        main .secFour .bg-img .container .row .hover-img .hover-img-item p {
+          margin-top: 50px;
+          color: white;
+          margin-bottom: 60px; }
+        main .secFour .bg-img .container .row .hover-img .hover-img-item button {
+          padding-top: 3px !important;
+          padding-bottom: 3px !important; }
+          main .secFour .bg-img .container .row .hover-img .hover-img-item button:hover {
+            cursor: pointer; }
+  main .secFour .bg-img .secFourBg {
+    width: 1334px;
+    position: relative;
+    margin: 0 auto; }
+    main .secFour .bg-img .secFourBg #none-one {
+      position: absolute;
+      right: -7px;
+      bottom: 600px;
+      z-index: -50; }
+    main .secFour .bg-img .secFourBg #none-twoo {
+      position: absolute;
+      bottom: 0;
+      left: -7px;
+      z-index: -50; }
+main .secFive .container .row {
+  padding-top: 50px;
+  height: 650px; }
+  main .secFive .container .row .portfolio {
+    position: absolute;
+    height: 460px;
+    right: -180px;
+    bottom: 30px;
+    z-index: 55;
+    background-color: white;
+    padding: 20px 50px; }
+    main .secFive .container .row .portfolio h1 {
+      color: #212529; }
+    main .secFive .container .row .portfolio p {
+      color: #37475A;
+      line-height: 30px; }
+  main .secFive .container .row .portf-carousel {
+    height: 570px;
+    width: 660px;
+    position: absolute;
+    top: 0;
+    right: -104px; }
+    main .secFive .container .row .portf-carousel .carousel {
+      height: 570px; }
+      main .secFive .container .row .portf-carousel .carousel .carousel-inner .carousel-item {
+        height: 570px; }
+        main .secFive .container .row .portf-carousel .carousel .carousel-inner .carousel-item img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          border-top-right-radius: 200px; }
+    main .secFive .container .row .portf-carousel a {
+      height: 60px;
+      width: 83px;
+      background-color: white;
+      opacity: 1 !important;
+      top: auto; }
+      main .secFive .container .row .portf-carousel a span {
+        color: #131A22 !important;
+        font-size: 30px; }
+    main .secFive .container .row .portf-carousel .carousel-control-prev {
+      left: 86px;
+      z-index: 86; }
+    main .secFive .container .row .portf-carousel .carousel-control-next {
+      left: 165px !important;
+      right: auto; }
+main .secSix .container-fluid .secSixBg {
+  width: 1334px;
+  margin: 0 auto;
+  position: relative; }
+  main .secSix .container-fluid .secSixBg img {
+    position: absolute;
+    top: 180px;
+    left: -15px; }
+main .secSix .container .row {
+  text-align: center; }
+  main .secSix .container .row h1 {
+    color: #212529;
+    margin: 0 auto; }
+  main .secSix .container .row .count {
+    width: 220px; }
+    main .secSix .container .row .count span {
+      color: #212529;
+      font-weight: 500; }
+    main .secSix .container .row .count p {
+      color: #37475A;
+      margin-bottom: 0; }
+main .secSeven {
+  overflow: hidden;
+  padding-top: 150px; }
+  main .secSeven h1 {
+    color: #212529; }
+  main .secSeven .aos {
+    width: 1334px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative; }
+    main .secSeven .aos .container-fluid {
+      width: 3560px; }
+      main .secSeven .aos .container-fluid .row .anim {
+        animation-name: poezd;
+        animation-duration: 30s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite; }
+        main .secSeven .aos .container-fluid .row .anim .row .col {
+          padding: 0 30px !important; }
+          main .secSeven .aos .container-fluid .row .anim .row .col .anim-item .anim-item-min {
+            width: 80px;
+            height: 80px;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 4px;
+            margin-top: 40px; }
+            main .secSeven .aos .container-fluid .row .anim .row .col .anim-item .anim-item-min img {
+              width: 60% !important;
+              margin: 0 auto;
+              height: 100%;
+              display: block;
+              object-fit: contain; }
+          main .secSeven .aos .container-fluid .row .anim .row .col .anim-item .anim-item-max {
+            width: 150px;
+            height: 150px;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 4px;
+            margin-top: 40px; }
+            main .secSeven .aos .container-fluid .row .anim .row .col .anim-item .anim-item-max img {
+              width: 60% !important;
+              margin: 0 auto;
+              height: 100%;
+              display: block;
+              object-fit: contain; }
+main .secEight {
+  background-image: url("../images/jpg/Rectangle 6.7.png");
+  background-repeat: no-repeat;
+  background-position: right 800px; }
+  main .secEight .container {
+    padding-top: 200px;
+    padding-bottom: 680px; }
+    main .secEight .container .row h1 {
+      font-weight: 400;
+      color: #212529;
+      padding-bottom: 80px; }
+    main .secEight .container .row .card {
+      border: none;
+      background-color: #FFFDF7;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      text-align: center; }
+      main .secEight .container .row .card:hover {
+        box-shadow: 0 15px 25px rgba(0, 0, 0, 0.12);
+        transition: all 0.3s ease-in; }
+      main .secEight .container .row .card .card-header {
+        height: 120px;
+        border: none;
+        background-color: transparent; }
+        main .secEight .container .row .card .card-header .our-team {
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+          margin: 0 auto;
+          transform: translateY(-87px); }
+          main .secEight .container .row .card .card-header .our-team img {
+            width: 100%;
+            height: 100%;
+            display: block;
+            border-radius: 50%;
+            object-fit: cover; }
+      main .secEight .container .row .card .card-body p {
+        color: #212529; }
+      main .secEight .container .row .card .card-body small {
+        color: #EE7532; }
+main footer {
+  background-color: #131A22; }
+  main footer .container-fluid .map {
+    position: relative; }
+    main footer .container-fluid .map iframe {
+      position: absolute;
+      bottom: -50px;
+      left: 0;
+      border-top-right-radius: 250px; }
+  main footer .container .footer-links .kompany h5 {
+    margin-bottom: 20px;
+    color: white; }
+  main footer .container .footer-links .kompany ul li {
+    padding: 5px 0; }
+    main footer .container .footer-links .kompany ul li a {
+      color: #fff;
+      transition: all 0.2s ease-in; }
+      main footer .container .footer-links .kompany ul li a:hover {
+        color: #EE7532; }
+  main footer .container .footer-links .xizmatlar h5 {
+    margin-bottom: 20px;
+    color: white; }
+  main footer .container .footer-links .xizmatlar ul li {
+    padding: 5px 0; }
+    main footer .container .footer-links .xizmatlar ul li a {
+      color: #fff;
+      transition: all 0.2s ease-in; }
+      main footer .container .footer-links .xizmatlar ul li a:hover {
+        color: #EE7532;
+        text-decoration: none; }
+  main footer .container .footer-links .mijozlar h5 {
+    margin-bottom: 20px;
+    color: white; }
+  main footer .container .footer-links .mijozlar ul li {
+    padding: 5px 0; }
+    main footer .container .footer-links .mijozlar ul li a {
+      color: #fff;
+      transition: all 0.2s ease-in; }
+      main footer .container .footer-links .mijozlar ul li a:hover {
+        color: #EE7532;
+        text-decoration: none; }
+  main footer .container .footer-links .langDropdown form .form-group select {
+    border-radius: 20px;
+    height: 32px;
+    box-shadow: none !important;
+    outline: none !important;
+    background-color: transparent;
+    color: white; }
+    main footer .container .footer-links .langDropdown form .form-group select option {
+      color: #212529; }
+      main footer .container .footer-links .langDropdown form .form-group select option:hover {
+        background-color: #EC681F !important; }
+  main footer .container .footer-links .profile-user ul li {
+    display: inline-block;
+    padding: 0 15px 0 0; }
+    main footer .container .footer-links .profile-user ul li a {
+      text-align: center; }
+      main footer .container .footer-links .profile-user ul li a span {
+        height: 32px;
+        width: 32px;
+        border-radius: 50%;
+        background-color: #484848;
+        color: white;
+        line-height: 32px;
+        font-size: 18px;
+        transition: all 0.3s ease-in; }
+        main footer .container .footer-links .profile-user ul li a span:hover {
+          background-color: #EE7532; }
+  main footer .container .footer-links .bot-text a {
+    color: white; }
+  main footer .container .aloqa h5 {
+    margin-bottom: 20px;
+    color: white; }
+  main footer .container .aloqa .aloqa-item ul li {
+    line-height: 26px; }
+    main footer .container .aloqa .aloqa-item ul li span {
+      color: #fff; }
+      main footer .container .aloqa .aloqa-item ul li span i {
+        color: #EC681F;
+        font-size: 20px;
+        margin-right: -15px;
+        transform: translateX(-25px); }
+    main footer .container .aloqa .aloqa-item ul li p {
+      color: #fff;
+      font-weight: 700; }
+  main footer .container .our-location {
+    font-size: 14px; }
+    main footer .container .our-location span {
+      color: #fff;
+      display: block; }
+      main footer .container .our-location span i {
+        color: #EC681F;
+        transform: translateX(-25px);
+        margin-right: -15px; }
+    main footer .container .our-location small {
+      color: white; }
+
+@keyframes poezd {
+  50% {
+    margin-left: -1210px; }
+  100% {
+    margin-left: 0; } }
+@media only screen and (max-width: 572px) {
+  main header .container .headerNav {
+    background-color: #fff; }
+    main header .container .headerNav nav .navbar-brand {
+      width: 80px; }
+    main header .container .headerNav nav .collapse ul li {
+      padding: 0; }
+      main header .container .headerNav nav .collapse ul li a {
+        padding-bottom: 0px;
+        font-size: 14px; }
+    main header .container .headerNav nav .collapse .langDropdown form .form-group select {
+      width: 120px; }
+  main .sectionOne .secOneBg {
+    width: 300px;
+    position: relative;
+    right: -18px; }
+    main .sectionOne .secOneBg img {
+      width: 100%; }
+  main .sectionOne .header-left-text {
+    padding-top: 150px;
+    padding-left: 15px; }
+    main .sectionOne .header-left-text p {
+      font-size: 18px; }
+    main .sectionOne .header-left-text b {
+      font-size: 18px; }
+    main .sectionOne .header-left-text button {
+      font-size: 16px;
+      padding: 5px 30px 5px 20px !important; }
+      main .sectionOne .header-left-text button:hover i {
+        right: 5px; }
+      main .sectionOne .header-left-text button i {
+        right: 10px; }
+    main .sectionOne .header-left-text .connection {
+      padding-top: 100px; }
+      main .sectionOne .header-left-text .connection span p {
+        font-size: 18px; }
+  main .sectionOne .container .row .vertical-carousel {
+    padding-top: 50px; }
+    main .sectionOne .container .row .vertical-carousel .carousel ul {
+      right: 0;
+      left: auto;
+      top: 200px; }
+    main .sectionOne .container .row .vertical-carousel .carousel-inner .carousel-item {
+      height: 350px; }
+  main .sectionTwoo {
+    padding-top: 60px;
+    padding-bottom: 350px; }
+    main .sectionTwoo .container .row .sectionTwoo-text {
+      padding-left: 15px; }
+      main .sectionTwoo .container .row .sectionTwoo-text .heading-text h1 {
+        margin-bottom: 20px;
+        font-size: 25px; }
+      main .sectionTwoo .container .row .sectionTwoo-text p {
+        line-height: 25px;
+        font-size: 16px; }
+      main .sectionTwoo .container .row .sectionTwoo-text ul li {
+        font-size: 16px;
+        padding-left: 20px; }
+        main .sectionTwoo .container .row .sectionTwoo-text ul li::after {
+          top: 8px; }
+    main .sectionTwoo .container .row .first-img {
+      width: 337px;
+      top: 80px;
+      right: 0; }
+      main .sectionTwoo .container .row .first-img img {
+        width: 100%;
+        display: block; }
+    main .sectionTwoo .container .row .second-img {
+      top: 120px; }
+  main .sectionThree {
+    background-repeat: repeat-y; }
+    main .sectionThree .container .row h1 {
+      font-size: 25px;
+      margin-bottom: 60px; }
+    main .sectionThree .container .row .card {
+      margin-bottom: 50px; }
+      main .sectionThree .container .row .card .card-body {
+        height: 180px;
+        padding-left: 10px !important;
+        padding-right: 10px !important; }
+        main .sectionThree .container .row .card .card-body h4 {
+          font-size: 20px; }
+        main .sectionThree .container .row .card .card-body p {
+          font-size: 16px; }
+  main .secFour .bg-img {
+    position: relative; }
+    main .secFour .bg-img .container .row {
+      padding-bottom: 50px; }
+      main .secFour .bg-img .container .row h1 {
+        font-size: 25px; }
+      main .secFour .bg-img .container .row .hover-img {
+        margin-bottom: 30px; }
+        main .secFour .bg-img .container .row .hover-img .hover-img-item p {
+          font-size: 16px; }
+    main .secFour .bg-img .secFourBg {
+      width: 300px; }
+  main .secFive .container .row {
+    padding-top: 0; }
+    main .secFive .container .row .portfolio {
+      width: 300px;
+      left: 15px;
+      padding: 20px 0;
+      height: 200px; }
+      main .secFive .container .row .portfolio h1 {
+        font-size: 25px;
+        text-align: center; }
+      main .secFive .container .row .portfolio p {
+        font-size: 16px; }
+    main .secFive .container .row .portf-carousel {
+      height: 300px;
+      width: 350px;
+      right: 0;
+      top: 0; }
+      main .secFive .container .row .portf-carousel .carousel {
+        height: 300px; }
+        main .secFive .container .row .portf-carousel .carousel .carousel-inner .carousel-item {
+          height: 300px; }
+      main .secFive .container .row .portf-carousel a {
+        height: 25px;
+        width: 40px; }
+      main .secFive .container .row .portf-carousel .carousel-control-prev {
+        left: 125px;
+        z-index: 86; }
+  main .secSix .container-fluid .secSixBg {
+    width: 250px; }
+    main .secSix .container-fluid .secSixBg img {
+      display: none; }
+  main .secSix .container .row {
+    text-align: center; }
+    main .secSix .container .row h1 {
+      font-size: 25px; }
+    main .secSix .container .row .count {
+      margin: 0 auto; }
+      main .secSix .container .row .count span {
+        font-size: 25px; }
+      main .secSix .container .row .count p {
+        font-size: 16px; }
+  main .secSeven {
+    padding-top: 50px; }
+    main .secSeven h1 {
+      font-size: 25px; }
+    main .secSeven .aos {
+      width: 320px; }
+      main .secSeven .aos .container-fluid .row .anim .row .col {
+        padding: 0 15px !important; }
+        main .secSeven .aos .container-fluid .row .anim .row .col .anim-item .anim-item-min {
+          width: 50px;
+          height: 50px;
+          margin-top: 20px; }
+        main .secSeven .aos .container-fluid .row .anim .row .col .anim-item .anim-item-max {
+          width: 100px;
+          height: 100px;
+          margin-top: 20px; }
+  main .secEight .container {
+    padding-top: 100px;
+    padding-bottom: 500px; }
+    main .secEight .container .row h1 {
+      font-size: 25px; }
+    main .secEight .container .row .card .card-header {
+      height: 80px; }
+      main .secEight .container .row .card .card-header .our-team {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        margin: 0 auto;
+        transform: translateY(-60px); }
+        main .secEight .container .row .card .card-header .our-team img {
+          width: 100%;
+          height: 100%;
+          display: block;
+          border-radius: 50%;
+          object-fit: cover; }
+  main footer .container-fluid .map iframe {
+    height: 300px;
+    width: 300px;
+    border-top-right-radius: 100px; }
+  main footer .container .footer-links .kompany {
+    padding-left: 15px; }
+    main footer .container .footer-links .kompany ul li {
+      padding: 2px 0; }
+  main footer .container .footer-links .xizmatlar ul li {
+    padding: 2px 0; }
+  main footer .container .footer-links .mijozlar ul li {
+    padding: 2px 0; }
+  main footer .container .footer-links .langDropdown {
+    padding-left: 15px; }
+    main footer .container .footer-links .langDropdown form .form-group select {
+      cursor: pointer;
+      border-radius: 20px;
+      height: 30px;
+      width: 120px; }
+  main footer .container .footer-links .profile-user {
+    padding-left: 40px; }
+    main footer .container .footer-links .profile-user ul li a span {
+      height: 25px;
+      width: 25px;
+      font-size: 15px;
+      line-height: 25px; }
+  main footer .container .footer-links .bot-text {
+    padding-left: 15px; }
+  main footer .container .aloqa {
+    padding-left: 35px; }
+    main footer .container .aloqa .aloqa-item ul li p {
+      font-size: 20px; } }
+
+/*# sourceMappingURL=main.css.map */
